@@ -20,6 +20,6 @@ export default function decorate(block) {
     img.closest('picture').replaceWith(optimizedPic);
   });
   block.textContent = '';
-  block.append("This is a test msg");
+  block.append('This is a test msg');
   block.append(ul);
 }
